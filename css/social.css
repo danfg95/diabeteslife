@@ -1,0 +1,60 @@
+.btn-default {
+  width: 150px;
+}
+
+.btn-twitter {
+  background-color: #1DA1F2;
+}
+
+.btn-instagram {
+  background-color: #DC3682;
+}
+
+.btn-facebook {
+  background-color: #3B5898;
+}
+
+.btn-youtube {
+  background-color: #DB2724;
+}
+
+.network-name {
+  color: white;
+}
+
+.fa {
+  color: white;
+}
+
+.twitter-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #1DA1F2;
+}
+
+.instagram-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #DC3682;
+}
+
+.facebook-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #3B5898;
+}
+
+.youtube-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #DB2724;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+}

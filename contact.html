@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Contacto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap Core CSS
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+   Custom CSS
+  <link href="css/modern-business.css" rel="stylesheet">
+  Custom Fonts
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/social.css">
+
+
+</head>
+
+<body>
+  <!-- Menu de la web -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="pull-left"><img src="images/snow_white2.png" style="width:50%"></a>
+              <a class="navbar-brand animation" href="index.html">#SOMOSLANIEVE</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle animation" data-toggle="dropdown">Viajes<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="station1.html">Formigal</a>
+                          </li>
+                          <li>
+                              <a href="station2.html">Sierra Nevada</a>
+                          </li>
+                          <li>
+                              <a href="station3.html">Baqueira</a>
+                          </li>
+                          <li>
+                              <a href="station4.html">Grandvalira</a>
+                          </li>
+                          <li>
+                              <a href="station5.html">Saint Lary</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a class="animation" href="about.html">Nosotros</a>
+                  </li>
+                  <li>
+                      <a class="animation" href="contact.html">Contacto</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+  <!-- Fin del menu de la web -->
+
+  <br><br>
+
+  <div class="container">
+      <form class="well form-horizontal text-center" action="http://juanpueyo.tk/dw/prueba.php" method="post"  id="contact_form" onsubmit="return validacion()">
+        <fieldset>
+
+          <!-- Nombre del formulario -->
+          <legend>Información</legend>
+          <!--https://codepen.io/jaycbrf/pen/iBszr-->
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Nombre</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input  name="first_name" placeholder="Nombre" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">E-Mail</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input name="email" placeholder="E-Mail" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Text area -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Observaciones</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                  <textarea class="form-control" name="comment" placeholder="Comentarios"></textarea>
+                </div>
+              </div>
+          </div>
+
+          <!-- Success message -->
+          <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> ¡Gracias! En breve confirmaremos tu reserva.</div>
+
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-warning">Enviar <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+    <!-- /.container -->
+
+  <div class="container">
+      <form class="well form-horizontal text-center" action="http://juanpueyo.tk/dw/prueba.php" method="post"  id="contact_form">
+        <fieldset>
+
+          <!-- Nombre del formulario -->
+          <legend>Reservas</legend>
+          <!--https://codepen.io/jaycbrf/pen/iBszr-->
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Nombre</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input  name="first_name" placeholder="Nombre" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Apellidos</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input name="last_name" placeholder="Apellidos" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">E-Mail</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input name="email" placeholder="E-Mail" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Movil #</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                  <input name="phone" placeholder="+34 627 594 652" class="form-control" type="text">
+                </div>
+              </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Ciudad</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                  <input name="city" placeholder="Ciudad" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+
+          <!-- Select Basic -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Tipo de viaje</label>
+              <div class="col-md-4 selectContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                  <select name="state" class="form-control selectpicker" >
+                    <option value=" " >Por favor seleccione el tipo de viaje</option>
+                    <option>Formigal - Panticosa</option>
+                    <option>Sierra Nevada</option>
+                    <option >Baqueira - Beret</option>
+                    <option >Grandvalira</option>
+                    <option >Saint Lary</option>
+                  </select>
+                </div>
+              </div>
+          </div>
+
+          <!-- radio checks -->
+          <div class="form-group text-left">
+            <label class="col-md-4 control-label">¿Como viajas?</label>
+              <div class="col-md-4">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hosting" value="yes" /> Solo/a
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="hosting" value="no" /> Acompañado/a
+                  </label>
+                </div>
+              </div>
+          </div>
+
+          <!-- Text area -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Acompañantes</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                  <textarea class="form-control" name="comment" placeholder="Nombre de los acompañantes"></textarea>
+                </div>
+              </div>
+          </div>
+
+          <!-- Text area -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Observaciones</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                  <textarea class="form-control" name="comment" placeholder="Comentarios"></textarea>
+                </div>
+              </div>
+          </div>
+
+          <!-- Success message -->
+          <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> ¡Gracias! En breve confirmaremos tu reserva.</div>
+
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-warning">Enviar <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+    <!-- /.container -->
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <hr>
+          <h3>Nuestras redes sociales</h3>
+            <ul class="list-inline banner-social-buttons">
+              <li><a data-toggle="modal" data-target="#myModal" class="btn btn-default btn-lg btn-twitter"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+              <li><a data-toggle="modal" data-target="#myModal2" class="btn btn-default btn-lg btn-instagram"><i class="fa fa-instagram"> <span class="network-name">Instagram</span></i></a></li>
+              <li><a data-toggle="modal" data-target="#myModal3" class="btn btn-default btn-lg btn-facebook"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+              <li><a data-toggle="modal" data-target="#myModal4" class="btn btn-default btn-lg btn-youtube"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+            </ul>
+        </div>
+      </div>
+  </div>
+
+  <div class="container text-center">
+    <!-- Modal Twitter-->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header twitter-header">
+            <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+            <h4 class="modal-title">@somoslanieve</h4>
+          </div>
+          <div class="modal-body">
+            <p>¡Estate atento! Pronto podrás seguirnos en nuestra cuenta de Twitter.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Instagram-->
+    <div class="modal fade" id="myModal2" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header instagram-header">
+            <h4 class="modal-title">Instagram SomosLaNieve</h4>
+          </div>
+          <div class="modal-body">
+            <p>¡Estate atento! Pronto podrás ver las mejores fotos en nuestra cuenta de Instagram.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Facebook-->
+    <div class="modal fade" id="myModal3" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header facebook-header">
+            <h4 class="modal-title">Facebook SomosLaNieve</h4>
+          </div>
+          <div class="modal-body">
+            <p>¡Estate atento! Pronto podrás seguirnos en nuestra página de Facebook.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Youtube-->
+    <div class="modal fade" id="myModal4" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header youtube-header">
+            <h4 class="modal-title">Youtube SomosLaNieve</h4>
+          </div>
+          <div class="modal-body">
+            <p>¡Estate atento! Pronto podrás ver los mejores videos en nuestro canal de Youtube.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container text-center">
+    <hr>
+    <h5>Copyright © 2017 Grupo SOMOSLANIEVE. All rights reserved.</h5>
+  </div>
+
+</body>
+
+</html>
