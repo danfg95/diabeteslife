@@ -42,7 +42,7 @@
 }
 
 /*********************Para el boton de info y reservas**********************/
-.btn_travels {
+.btn_products {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -56,12 +56,12 @@
   color: #ffffff;
   font-size: 14px;
   padding: 6px 0px 6px 0px;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 80px;
+  margin-right: 80px;
   text-decoration: none;
 }
 
-.btn_travels:hover {
+.btn_products:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
