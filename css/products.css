@@ -83,3 +83,11 @@
     font-size: 70%;
   }
 }
+
+@media(max-width:767px) {
+  .btn_products {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+
