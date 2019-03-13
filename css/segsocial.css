@@ -68,3 +68,9 @@
     font-size: 70%;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn_products {
+    font-size: 70%;
+  }
+}
