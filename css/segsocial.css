@@ -21,9 +21,18 @@
   margin-right: auto;
 }
 
-.moblie-video{
-    width: 533px;
-    height: 300px;
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*********************Para el boton de info y reservas**********************/
@@ -66,12 +75,5 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .btn_products {
     font-size: 70%;
-  }
-}
-
-@media(max-width:767px) {
-  .moblie-video{
-    width: 320px;
-    height: 180px;
   }
 }
