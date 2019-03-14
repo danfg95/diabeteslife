@@ -67,10 +67,10 @@
 /* Bootstrap CSS                                  */
 /**************************************************/
 @media(max-width:767px) {
-  .btn_products {
+  /*.btn_products {
     margin-left: 90px;
     margin-right: 90px;
-  }
+  }*/
 }
 
 /* Medium devices (desktops, 992px and up) */
