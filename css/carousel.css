@@ -54,10 +54,9 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 20%;
+        height: 70%;
     }
 }
-
 
 /*Para cambiar cosas relacionadas con el texto del carrousel*/
 .carousel-text {
