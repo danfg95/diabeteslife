@@ -51,6 +51,21 @@
   background: #0090FF;
   color: black;
 }
+
+.btn_non_products {
+  text-align: center;
+  position: relative;
+}
+.btn_non_products {
+  font-family: 'Hammersmith One', sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #C0C0C0;
+  padding: 10px 0px 10px 0px; /* arriba, derecha, abajo, izquierda */
+  border: none;
+}
 /*********************Fin de los botones**********************/
 
 /**************************************************/
@@ -66,11 +81,17 @@
   .btn_products {
     margin: 0px 150px 0px 150px;
   }
+  .btn_non_products {
+    margin: 0px 150px 0px 150px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .btn_products {
+    margin: 0px 150px 0px 150px;
+  }
+  .btn_non_products {
     margin: 0px 150px 0px 150px;
   }
 }
