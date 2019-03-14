@@ -66,18 +66,24 @@
 /**************************************************/
 /* Bootstrap CSS                                  */
 /**************************************************/
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .btn_products {
-    font-size: 70%;
-  }
-}
-
 @media(max-width:767px) {
   .btn_products {
     margin-left: 90px;
     margin-right: 90px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btn_products {
+    margin: 0px 50px 0px 50px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .btn_products {
+    margin: 0px 50px 0px 50px;
   }
 }
 

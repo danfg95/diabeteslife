@@ -48,7 +48,6 @@
   font-size: 15px;
   background: #42A5F6;
   padding: 10px 0px 10px 0px; /* arriba, derecha, abajo, izquierda */
-  margin: 0px 150px 0px 150px;
   border: none;
 }
 .btn_products:hover {
@@ -60,10 +59,21 @@
 /**************************************************/
 /* Bootstrap CSS                                  */
 /**************************************************/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .btn_products {
-    font-size: 70%;
+    margin: 0px 150px 0px 150px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .btn_products {
+    margin: 0px 150px 0px 150px;
   }
 }
