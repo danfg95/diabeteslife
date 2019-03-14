@@ -1,45 +1,30 @@
-.panel-heading {
-  background-color: #FFF !important;
-  color: white !important;
-  text-align: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.desc-title-left {
+  text-align: left;
 }
 
-.panel-body {
-  background-color: #2c2c2c !important;
-  color: white !important;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.desc-title-right {
+  text-align: right;
 }
 
-.index-image {
-  width: 100%;
-  height: auto;
+.desc-text {
+  text-align: justify;
 }
 
-.texto-product {
-  text-align: center !important;
+.desc-image-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
 
-.panel-default {
-  border-radius: 10px;
+.desc-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
-.texto-rojo {
-  color: red;
-  text-align: center;;
-}
-
-.texto-naranja {
-  color: #FF7514;
-  text-align: center;;
-}
-
-.texto-verde {
-  color: green;
-  text-align: center;;
-}
 
 /*********************Para los botones**********************/
 .btn_products {
@@ -54,7 +39,6 @@
   font-size: 15px;
   background: #42A5F6;
   padding: 10px 0px 10px 0px; /* arriba, derecha, abajo, izquierda */
-  margin: 0px 20px 0px 20px;
   border: none;
 }
 .btn_products:hover {
@@ -66,21 +50,22 @@
 /**************************************************/
 /* Bootstrap CSS                                  */
 /**************************************************/
-@media(max-width:767px) {
-  
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .btn_products {
-    margin: 0px 50px 0px 50px;
+    margin: 0px 150px 0px 150px;
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .btn_products {
-    margin: 0px 50px 0px 50px;
+    margin: 0px 150px 0px 150px;
   }
 }
 
