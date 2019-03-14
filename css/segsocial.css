@@ -71,7 +71,7 @@
 
 @media(max-width:767px) {
   .moblie-video{
-    width: 400px;
-    height: 225px;
-}
+    width: 320px;
+    height: 180px;
+  }
 }
