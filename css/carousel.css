@@ -53,8 +53,8 @@ footer {
         margin-bottom: 15px;
     }
 
-    header.carousel .carousel {
-        height: 70%;
+    header.carousel {
+        height: 50%;
     }
 }
 
