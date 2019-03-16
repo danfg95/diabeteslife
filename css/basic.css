@@ -1,15 +1,3 @@
-.desc-title-left {
-  text-align: left;
-}
-
-.desc-title-right {
-  text-align: right;
-}
-
-.desc-text {
-  text-align: justify;
-}
-
 .desc-image-container {
     position: relative;
     width: 100%;
@@ -25,19 +13,14 @@
     height: auto;
 }
 
-.steps-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 /*********************Para los botones**********************/
-.btn_products {
+.btn_type {
   text-align: center;
   position: relative;
+  display: block;
 }
-.btn_products {
+.btn_type {
   font-family: 'Hammersmith One', sans-serif;
   color: white;
   text-align: center;
@@ -45,26 +28,13 @@
   font-size: 15px;
   background: #42A5F6;
   padding: 10px 0px 10px 0px; /* arriba, derecha, abajo, izquierda */
+  margin-left: 100px;
+  margin-right: 100px;
   border: none;
 }
-.btn_products:hover {
+.btn_type:hover {
   background: #0090FF;
   color: black;
-}
-
-.btn_non_products {
-  text-align: center;
-  position: relative;
-}
-.btn_non_products {
-  font-family: 'Hammersmith One', sans-serif;
-  color: white;
-  text-align: center;
-  border-radius: 8px;
-  font-size: 15px;
-  background: #C0C0C0;
-  padding: 10px 0px 10px 0px; /* arriba, derecha, abajo, izquierda */
-  border: none;
 }
 /*********************Fin de los botones**********************/
 
@@ -78,21 +48,17 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .btn_products {
-    margin: 0px 150px 0px 150px;
-  }
-  .btn_non_products {
-    margin: 0px 150px 0px 150px;
+  .btn_type {
+    margin-left: 350px;
+    margin-right: 350px;
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .btn_products {
-    margin: 0px 150px 0px 150px;
-  }
-  .btn_non_products {
-    margin: 0px 150px 0px 150px;
+  .btn_type {
+    margin-left: 350px;
+    margin-right: 350px;
   }
 }
 
