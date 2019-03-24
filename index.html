@@ -1,48 +1,191 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <title>DiabetLife - Convierte el Freestyle a MCG</title>
+
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
+  <title>DiabetLife - Convierte el Freestyle a CGM</title>
 
-  <!--Las referencias para los tipos de letra-->
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="css/basic.css">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
 
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<br>
-			</div>
-			<div class="col-md-12">
-	      		<div class="desc-image-container">
-	      			<img class="desc-image" src="images/diabetlife_new_web.jpg">
-	      		</div>
-	      	</div>
-	    </div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-	      		<br><a href="http://diabetlife.es" class="btn btn_type">VISITAR WEB</a><br><br><br><br><br>
-	      	</div>
-		</div>
-	</div>
 
-<div class="container text-center">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">DIABETLIFE</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <!--<li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">Miaomiao</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Nightscout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/miaomiaokid.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>¿Tienes el Freestyle Libre?</h1>
+            <span class="subheading">Conviértelo en un medidor continuo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Icons Grid -->
+  <!--<section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Fully Responsive</h3>
+            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Bootstrap 4 Ready</h3>
+            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>Easy to Use</h3>
+            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/miaomiao-girls.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>¿Qué es el Miaomiao?</h2>
+          <p class="lead mb-0 showcase-text-desc">El Miaomiao es un lector que se coloca encima del Freestyle Libre y te envia las lecturas de glucosa automáticamente al movil por bluetooth cada 5 minutos, sin neceisdad de tener que acercar ningun otro aparato para recibir el nivel de azucar.</p>
+          <p class="lead mb-0 showcase-text-desc">El Miaomiao va pegado al brazo (encima del Freestyle Libre e incluye 60 pegatinas que se cambian cada 14 días) y es totalmente sumergible, en las mismas condiciones que el sensor Freestyle Libre.</p>
+          <p class="lead mb-0 showcase-text-desc">Además solo se compra una vez, su bateria es recargable y dura entre 15-30 días.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/miaomiaokid.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>¿En qué te ayuda el Miaomiao?</h2>
+          <p class="lead mb-0 showcase-text-desc">El Miaomiao te envia las lecturas de glucosa al movil automáticamente. Además te permite configurar alarmas por lo que el movil te avisará si te esta subiendo 
+          o bajando el azucar de forma que puedes solucionar rapidamente esa bajada o subida (incluso antes de que llegue a serlo.</p>
+          <p class="lead mb-0 showcase-text-desc">El Miaomiao te da la tranquilidad de poder conocer la glucosa de tu hijo cuando esta en el colegio o durmiendo (requiere Nightscout), incluso configurar
+          alarmas para que te despierten si tu pequeño esta bajo de azucar de madrugada.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/diabetlife.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>¿Cómo te ayudamos nosotros?</h2>
+          <p class="lead mb-0 showcase-text-desc ">Queremos ayudar a la comunidad que, como nosotros, tienen diabetes tipo 1. Por eso desde esta web te facilitamos:</p>
+          <p class="lead showcase-text-desc showcase-text-list">1. Un código de descuento para que puedas comprar el Miaomio 10$ más barato desde su web oficial.</p>
+          <p class="lead showcase-text-desc showcase-text-list">2. Las instrucciones paso a paso de cómo poner el Miaomiao en funcionamiento.</p>
+          <p class="lead showcase-text-desc showcase-text-list">3. Las instrucciones paso a paso de cómo poner en marcha la plataforma Nightscout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
   <hr>
-  <h5>Copyright © 2019 DiabetLife. All rights reserved.</h5>
-</div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; DiabetLife 2019. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
 
 </body>
 
