@@ -550,6 +550,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
+.btn-center {
+  margin: 0 auto !important;
+  text-align: center !important;
+  position: relative !important;
+}
+
 /* Product Advanced Featuress Section
 --------------------------------*/
 #advanced-features {
