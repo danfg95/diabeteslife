@@ -140,17 +140,17 @@
 # Videos
 --------------------------------------------------------------*/
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
 }
 .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -560,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #advanced-features {
   overflow: hidden;
-  padding: 30px 0 0 0;
+  padding: 30px 0 30px 0;
 }
 
 #advanced-features .features-row {
@@ -629,6 +629,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0 0 30px 0;
   }
 }
+
+/* Sections in different screens
+--------------------------------*/
+@media (max-width: 576px) {
+  .container-fluid{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-fluid{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-fluid{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
 
 /* Call To Action Section
 --------------------------------*/
